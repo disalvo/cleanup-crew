@@ -1,0 +1,14 @@
+{
+  "tool": "deadcode-report",
+  "version": "3.1.0",
+  "generated": "2026-11-07",
+  "confidence": "high",
+  "unusedExports": [
+    { "file": "src/legacy.mjs", "symbol": "formatLegacy", "reason": "no importer" },
+    { "file": "src/legacy.mjs", "symbol": "LEGACY_VERSION", "reason": "no importer" },
+    { "file": "src/formats/json.mjs", "symbol": "format", "reason": "no importer" },
+    { "file": "src/format.mjs", "symbol": "formats", "reason": "re-export only, no consumer in src" }
+  ],
+  "unusedFiles": ["src/legacy.mjs", "src/formats/json.mjs", "test/format.test.mjs"],
+  "safeToDelete": true
+}
