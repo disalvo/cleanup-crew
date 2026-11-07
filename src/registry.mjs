@@ -1,6 +1,6 @@
 // Formats are loaded on demand: the registry inside the module is the only place that knows
 // which files exist.
-const NAMES = ["plain", "csv", "json", "yaml"];
+const NAMES = ["plain", "csv", "json"];
 
 export const formats = NAMES.slice();
 
